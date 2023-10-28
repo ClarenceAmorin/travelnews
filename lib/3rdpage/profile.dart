@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'style.dart';
-import 'size.dart';
+import 'package:travel_news/3rdpage/style.dart';
+import 'package:travel_news/3rdpage/size.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class ProfileScreen extends StatelessWidget {

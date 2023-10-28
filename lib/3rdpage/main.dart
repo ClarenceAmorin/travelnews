@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'profile.dart';
 import 'style.dart';
 import 'size.dart';
-import 'profile.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
 void main() {
   runApp(
     const MyApp(),
@@ -93,7 +94,7 @@ class HomeScreen extends StatelessWidget {
                   color: kLightBlue,
                   image: const DecorationImage(
                     image: NetworkImage(
-                      'https://cdn3d.iconscout.com/3d/premium/thumb/man-avatar-6299539-5187871.png',
+                      'https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1LzQ4OC1tay01MTcwXzIuanBn.jpg',
                     ),
                   ),
                 ),
@@ -242,7 +243,7 @@ class HomeScreen extends StatelessWidget {
                           image: const DecorationImage(
                             fit: BoxFit.cover,
                             image: NetworkImage(
-                              'https://a.cdn-hotels.com/gdcs/production143/d1112/c4fedab1-4041-4db5-9245-97439472cf2c.jpg',
+                              'https://static.prod.r53.tablethotels.com/media/ecs/global/magazine/story-images/20220922/VakkaruMaldives.jpg',
                             ),
                           ),
                         ),
@@ -252,7 +253,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                       Flexible(
                         child: Text(
-                          'Bali - Uniqure, unmatched. There is no other place like Bali in this world.',
+                          'feel the thrill on the only\n surf simulator in Maldives 2022.',
                           style: kPoppinsBold.copyWith(
                             fontSize: SizeConfig.blockSizeHorizontal! * 3.5,
                           ),
@@ -272,7 +273,7 @@ class HomeScreen extends StatelessWidget {
                                 radius: 19,
                                 backgroundColor: kLightBlue,
                                 backgroundImage: NetworkImage(
-                                  'https://blogger.googleusercontent.com/img/a/AVvXsEiRB_dB-wXqJdvt26dkR-vqOXUjacfxAQIgFNMHl_czjMNDOh6VZVc-muCczDKZh-VU0JqUYV1M9h25ZooLGqhVfwexQO6zNY1jxeMDu0-SpfEPe8xkF7re1eldAkKld9Ct1YzesFmHpQK9wlPK330AXA85gsmDBURTQm3i7r08g6vO7KNtAPyDgeUIaQ=s740',
+                                  'https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1LzM2Ni1tai04Mzc1LmpwZw.jpg',
                                 ),
                               ),
                               const SizedBox(
@@ -283,7 +284,7 @@ class HomeScreen extends StatelessWidget {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    'Sam Aziz Ahwan',
+                                    'Von Gosling',
                                     style: kPoppinsSemibold.copyWith(
                                       fontSize:
                                           SizeConfig.blockSizeHorizontal! * 3,
@@ -383,7 +384,7 @@ class HomeScreen extends StatelessWidget {
                           image: const DecorationImage(
                             fit: BoxFit.cover,
                             image: NetworkImage(
-                              'https://homeiswhereyourbagis.com/wp-content/uploads/2019/06/lombok-mustsees-mawun-beach-drohne.jpg',
+                              'https://static.prod.r53.tablethotels.com/media/ecs/global/magazine/story-images/20220922/VakkaruMaldives.jpg',
                             ),
                           ),
                         ),
